@@ -1,0 +1,30 @@
+GET http://localhost:3000/jokes
+
+###
+
+get http://localhost:3000/jokes/6489802b81aae70f66de81f1
+
+###
+
+POST http://localhost:3000/jokes
+Content-Type: application/json
+
+{
+    "overskrift": "Joke Name",
+    "jokeTekst": "Joke Tekst"
+}
+
+###
+
+DELETE http://localhost:3000/jokes/64897cfc3ef2e0cd0a81a438
+
+
+###
+
+PATCH http://localhost:3000/jokes/6489802b81aae70f66de81f1
+Content-Type: application/json
+
+{
+    "overskrift": "New Joke Name"
+}
+
